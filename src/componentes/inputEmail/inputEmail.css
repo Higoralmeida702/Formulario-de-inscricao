@@ -1,0 +1,85 @@
+input {
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px
+   
+}
+
+
+.btn-Submit {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+    
+  }
+  
+  .btn-Submit {
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: hsl(234, 29%, 20%);
+    box-shadow: 0 20px 30px -6px  rgba(234, 29%, 20%);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: white;
+    width: 435px;
+  }
+  
+  .btn-Submit:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .btn-Submit:active {
+    opacity: 0.5;
+  }
+
+.emailCorpo form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.msgErro {
+  color: red;
+  font-size: 18px; 
+  font-weight: 200px;
+  margin: 0;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .conteudo {
+    width: 300px;
+  }
+  .image-container{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  input {
+    width: 20.5rem;
+  }
+  
+  .btn-Submit {
+    font-size: 1.25rem;
+    width: 22.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+  }
+
+}

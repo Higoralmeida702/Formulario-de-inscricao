@@ -1,0 +1,43 @@
+
+.titulo {
+    color: hsl(234, 29%, 20%);
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.textForm {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;    
+}
+
+.textForm p{
+    margin: 0;
+    font-size: 18px;
+    width: 300px;
+}
+
+.textForm .icone {
+    margin-right: 15px;
+    
+}
+
+.subDesc {
+    margin-bottom: 50px;
+    font-size: 18;
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .textForm {
+        width: 17.5rem;
+        margin: 1rem 0.5rem
+    }   
+}
+
+@media screen and (max-width: 425px) {
+    .textForm {
+        width: 265px;
+        margin: 1rem;
+    }
+}
